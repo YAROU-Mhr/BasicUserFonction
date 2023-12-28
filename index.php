@@ -22,7 +22,7 @@ session_start();
 
             <div class="row">
                 <h1>Acceuil</h1>
-            </div=>
+            </div>
         
         </div>
 
