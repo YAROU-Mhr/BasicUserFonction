@@ -6,7 +6,7 @@ require 'php/security_avec_renvoie.php'; //fichier qui vérifie si il est connec
 
 //on vérifie si il est admin  repellez vous role 0 =user, 1 = admin, 2 = editeur selon notre décision
 
-if ($user['role'] != '1') {
+if ($auth_user['role'] != '1') {
     echo "<script>alert('Vous n'êtes pas administrateur !')</script>";
     header("refresh:0.1; url=index.php");
 }
